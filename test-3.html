@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" type="text/css" href="slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.min.css'>
+
+    <style>
+        body {margin-top: 50px;}
+        .pswp__zoom-wrap {text-align: center;}
+        .pswp__zoom-wrap:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+
+        }
+        .wrapper {
+            line-height: 0;
+            width: 100%;
+            max-width: 900px;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 auto;
+            text-align: left;
+            z-index: 1045;
+        }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+            width: 100%;}
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        video {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<div itemscope itemtype="https://schema.org/ImageGallery" id="gallery-div">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="#" class="slideItem" data-size="1280x850" data-group="gallery1" data-type="video" data-video='<div class="wrapper"><div class="video-wrapper"><iframe class="pswp__video" width="960" height="640" src="https://www.youtube-nocookie.com/embed/iP2JGliTdvw?rel=0" frameborder="0" allowfullscreen></iframe></div></div>'>
+            <img src="http://placehold.it/400x260?text=YouTube" class="img-responsive">
+            <figcaption class="hidden" itemprop="caption description">video youtube</figcaption>
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="#" class="slideItem" data-size="1280x850" data-group="gallery1" data-type="video" data-video='<div class="wrapper"><div class="video-wrapper"><iframe class="pswp__video" src="https://player.vimeo.com/video/121436114?title=0&byline=0&portrait=0" width="960" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>'>
+            <img src="http://placehold.it/400x260?text=Vimeo" class="img-responsive">
+            <figcaption class="hidden" itemprop="caption description">video vimeo</figcaption>
+        </a>
+    </figure>
+
+
+
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="http://placehold.it/1280x850?text=image1" data-size="1280x850" data-slideitem="1" class="slideItem" itemprop="contentUrl" data-group="gallery1">
+            <img class="img-responsive" src="http://placehold.it/400x260?text=image1" alt="alt 1" width="400" height="260" itemprop="thumbnail"></a>
+        <figcaption class="hidden" itemprop="caption description">caption text 1</figcaption>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="http://placehold.it/1280x850?text=image2" data-size="1280x850" data-slideitem="2" class="slideItem" itemprop="contentUrl" data-group="gallery1">
+            <img class="img-responsive" src="http://placehold.it/400x260?text=image2" alt="alt 2" width="400" height="260" itemprop="thumbnail"></a>
+        <figcaption class="hidden" itemprop="caption description">caption text 2</figcaption>
+    </figure>
+
+<figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="http://placehold.it/1280x850?text=image3" data-size="1280x850" data-slideitem="3" class="slideItem" itemprop="contentUrl" data-group="gallery1">
+            <img class="img-responsive" src="http://placehold.it/400x260?text=image3" alt="alt 3" width="400" height="260" itemprop="thumbnail"></a>
+        <figcaption class="hidden" itemprop="caption description">caption text 3</figcaption>
+</figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="http://placehold.it/1280x850?text=image4" data-size="1280x850" data-slideitem="4" class="slideItem" itemprop="contentUrl" data-group="gallery1" >
+            <img class="img-responsive" src="http://placehold.it/400x260?text=image4" alt="alt 4" width="400" height="260" itemprop="thumbnail"></a>
+        <figcaption class="hidden" itemprop="caption description">caption text 4</figcaption>
+    </figure>
+
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="http://placehold.it/1280x850?text=image5" data-size="1280x850" data-slideitem="5" class="slideItem" itemprop="contentUrl" data-group="gallery1" >
+            <img class="img-responsive" src="http://placehold.it/400x260?text=image5" alt="alt 5" width="400" height="260" itemprop="thumbnail"></a>
+        <figcaption class="hidden" itemprop="caption description">caption text 5</figcaption>
+        </figure>
+
+            <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="http://placehold.it/1280x850?text=image6" data-size="1280x850" data-slideitem="6" class="slideItem" itemprop="contentUrl" data-group="gallery1">
+            <img class="img-responsive" src="http://placehold.it/400x260?text=image6" alt="alt 6" width="400" height="260" itemprop="thumbnail"></a>
+        <figcaption class="hidden" itemprop="caption description">caption text 6</figcaption>
+            </figure>
+
+</div>
+
+</div>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>-->
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<!--<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>-->
+<script type="text/javascript" src="slick.min.js"></script>
+<script>
+    (function($) {
+    $('#gallery-div').slick({
+        dots: true,
+        arrows:false,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
+    });
+    })(jQuery);
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe-ui-default.min.js'></script>
+<!--<script src="jqPhotoSwipe.js"></script>-->
+<script>
+/*
+jqPhotoSwipe v0.1.1 - jQuery for PhotoSwipe
+https://ergec.github.io/jQuery-for-PhotoSwipe/
+*/
+
+//WAS (function (jQuery) {
+(function($) {
+jQuery.fn.jqPhotoSwipe = function (options) {
+if (this.length) {
+var parseHash = function() {
+var hash = window.location.hash.substring(1),
+params = {};
+var vars = hash.split('&');
+for (var i = 0; i < vars.length; i++) {
+if(!vars[i]) {
+continue;
+}
+var pair = vars[i].split('=');
+if(pair.length < 2) {
+continue;
+}
+params[pair[0]] = pair[1];
+}
+
+if(params.gid) {
+params.gid = params.gid;
+}
+
+return params;
+};
+var _photoswipe = {};
+var defaults = {
+forceSingleGallery: false,
+galleryOpen: function (gallery) {
+
+}
+};
+_photoswipe.galleries = [];
+_photoswipe.galleriesindex = [];
+var $galleryid = 0;
+var pswpElement;
+if ($(".pswp[role='dialog']").length) {
+pswpElement = $(".pswp[role='dialog']")[0];
+} else {
+var pswpHTML = '<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button><button class="pswp__button pswp__button--share" title="Share"></button><button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div> </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div>';
+pswpElement = $(pswpHTML).appendTo("body")[0];
+}
+var forcedGalleryId = "pswg-forced";
+this.each(function () {
+var $options = $.extend(defaults, options);
+var $this = $(this);
+var $galleryname = $this.data("group");
+//added by me below
+var $size = $this.data("size").split('x');
+//w: parseInt($size[0], 10),
+//h: parseInt($size[1], 10),
+if (!$galleryname) {
+if ($options.forceSingleGallery) {
+$galleryname = forcedGalleryId;
+$this.data("group", $galleryname);
+} else {
+$galleryname = "pswgname" + (_photoswipe.galleriesindex.length);
+$this.data("group", $galleryname);
+}
+}
+if (_photoswipe.galleriesindex.indexOf($galleryname) === -1) {
+$galleryid = _photoswipe.galleriesindex.length;
+_photoswipe.galleriesindex.push($galleryname);
+_photoswipe.galleries[$galleryid] = {};
+_photoswipe.galleries[$galleryid].items = [];
+_photoswipe.galleries[$galleryid].i = 0;
+} else {
+$galleryid = _photoswipe.galleriesindex.indexOf($galleryname);
+}
+var $galleryid2 = $galleryid;
+$this.data("i", _photoswipe.galleries[$galleryid].i);
+$this.data("gid", $galleryname);
+if ($this.data('type') == 'video') {
+_photoswipe.galleries[$galleryid2].items.push({
+html: $this.data('video'),
+title: $this.siblings('figcaption').html()
+});
+
+
+} else {_photoswipe.galleries[$galleryid2].items.push({
+src: $this.attr("href"),
+//was title: $this.attr("title"),
+//can use <figcaption> below
+    title: $this.siblings('figcaption').html(),
+    //WAS
+    //w: 0,
+    //h: 0
+    w: parseInt($size[0], 10),
+    h: parseInt($size[1], 10)
+    });
+
+    //console.log($this.siblings('figcaption').html());
+
+    }//if end
+
+
+
+
+    $this.off("click").on("click", function (e) {
+
+    // not working  var onThumbnailsClick = function (e) {
+    e.preventDefault();
+    var index = $(this).data("i");
+    $options.index = index;
+    $options.galleryUID = $(this).data("gid");
+    // Pass data to PhotoSwipe and initialize it
+    _photoswipe.galleries[$galleryid2].obj = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, _photoswipe.galleries[$galleryid2].items, $options);
+    _photoswipe.galleries[$galleryid2].obj.init();
+
+    //video support
+    _photoswipe.galleries[$galleryid2].obj.listen('beforeChange', function() {
+    var currItem = $(_photoswipe.galleries[$galleryid2].obj.currItem.container);
+    $('.pswp__video').removeClass('active');
+    var currItemIframe = currItem.find('.pswp__video').addClass('active');
+    $('.pswp__video').each(function() {
+    if (!$(this).hasClass('active')) {
+    $(this).attr('src', $(this).attr('src'));
+    }
+    });
+    });
+
+    _photoswipe.galleries[$galleryid2].obj.listen('close', function() {
+    $('.pswp__video').each(function() {
+    $(this).attr('src', $(this).attr('src'));
+    });
+    });
+        
+    //no need to preload below - changed to get size from data-size because videos do not have definded size
+    /*_photoswipe.galleries[$galleryid2].obj.listen('initialZoomInEnd', function() {
+    $options.galleryOpen(_photoswipe.galleries[$galleryid2].obj);
+    });
+    _photoswipe.galleries[$galleryid2].obj.listen('imageLoadComplete', function(index, item) {
+    loadImg(index, item);
+    });
+    _photoswipe.galleries[$galleryid2].obj.listen('gettingData', function(index, item) {
+    loadImg(index, item);
+    });*/
+
+    /*function loadImg(index, item) {
+    /*if (item.w == 0 && item.h == 0) {
+    var imgpreload = new Image();
+    imgpreload.onload = function() {
+    item.w = this.width;
+    item.h = this.height;
+    item.needsUpdate = true;
+    _photoswipe.galleries[$galleryid2].obj.updateSize(true);
+    };
+    imgpreload.src = item.src;
+    }
+    }*/
+    });
+    var $hashparams = parseHash();
+    if ($hashparams.gid) {
+    if ($hashparams.gid.toString() === $galleryname && $hashparams.pid.toString() === (_photoswipe.galleries[$galleryid].i + 1).toString()) {
+    $this.trigger("click");
+    }
+    }
+    _photoswipe.galleries[$galleryid].i ++;
+    });
+    return _photoswipe;
+    }
+    };
+    })(jQuery);
+    </script>
+
+<script>
+    $(document).ready(function() {
+        $(".slideItem").jqPhotoSwipe({
+            /*galleryOpen: function (gallery) {
+                //with `gallery` object you can access all methods and properties described here http://photoswipe.com/documentation/api.html
+                //console.log(gallery);
+                //console.log(gallery.currItem);
+                //console.log(gallery.getCurrentIndex());
+                //gallery.toggleDesktopZoom();
+            }*/
+        });
+        /*$(".forcedgallery a").jqPhotoSwipe({
+            forceSingleGallery: true
+        });*/
+    });
+</script>
+
+
+
+
+</body>
+
+</html>
+
+
